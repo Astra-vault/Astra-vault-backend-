@@ -1,5 +1,3 @@
-# Astra-vault-backend
-
 # AstraVault Backend (Rust)
 
 [![Rust](https://img.shields.io/badge/Rust-1.80+-orange)](https://www.rust-lang.org)
