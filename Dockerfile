@@ -33,7 +33,7 @@ RUN apt-get update && apt-get install -y \
 RUN useradd -m -u 1000 appuser
 
 # Copy binary from builder
-COPY --from=builder /app/target/release/Astra-vault-backend- /app/astra-vault-backend
+COPY --from=builder /app/target/release/Astra-vault-backend /app/astra-vault-backend
 
 # Change ownership
 RUN chown -R appuser:appuser /app
